@@ -1,0 +1,78 @@
+<!--Elemento: <lo que va dentro>, Atributo: lo que va dentro del elemento con un = y ''-->
+<!DOCTYPE html>
+<!-- Define el tipo de documento como HTML5 -->
+<html lang="en">
+  <head><!--El head es todo lo que no se ve pero sirve para SEO-->
+    <!-- Codificación de caracteres -->
+    <meta charset="utf-8" /><!--Es para que entienda emojis y tildeds (meta es void)-->
+    <!-- Ajusta la visualización en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <!-- Vincula el archivo CSS externo -->
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Contenedor principal del menú -->
+    <div class="menu">
+      <main>
+        <!-- Título principal del café -->
+        <h1>CAMPER CAFE</h1>
+        <p class="established">Est. 2020</p>
+        <hr>
+        
+        <!-- Sección de bebidas -->
+        <section>
+          <h2>Coffee</h2>
+          <!-- Imagen decorativa de café -->
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          
+          <!-- Cada artículo representa un producto y su precio -->
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+
+        <!-- Sección de postres -->
+        <section>
+          <h2>Desserts</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <article class="item">
+            <p class="dessert">Donut</p><p class="price">1.50</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+          </article>
+        </section>
+      </main>
+
+      <!-- Línea separadora inferior -->
+      <hr class="bottom-line">
+      
+      <!-- Pie de página con dirección y enlace -->
+      <footer>
+        <p>
+          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+    </div>
+  </body>
+</html>

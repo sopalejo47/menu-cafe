@@ -1,0 +1,108 @@
+/* Fondo con imagen de granos de café y configuración general */
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* Estilos del título principal */
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Subtítulo de cada sección */
+h2 {
+  font-size: 30px;
+}
+
+/* Texto en cursiva para el "Est. 2020" */
+.established {
+  font-style: italic;
+}
+
+/* Centrado de títulos y párrafos */
+h1, h2, p {
+  text-align: center;
+}
+
+/* Caja principal del menú */
+.menu {
+  width: 80%; /* Ocupa 80% del ancho del viewport */
+  background-color: burlywood; /* Color de fondo tipo papel */
+  margin-left: auto;
+  margin-right: auto; /* Centrado horizontal */
+  padding: 20px;
+  max-width: 500px; /* Limita el ancho máximo */
+}
+
+/* Centrar imágenes */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Línea separadora */
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+/* Espacio adicional para la línea final */
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* Tipografía de impacto para títulos */
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+/* Estilo base para cada producto y su precio */
+.item p {
+  display: inline-block; /* Permite alinear en la misma línea */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* Alineación del nombre del producto */
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+/* Alineación del precio */
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* Estilos del pie de página */
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+/* Estilo de enlaces */
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
